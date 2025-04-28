@@ -17,6 +17,7 @@
     "app:build": "npm run build:for:electron && npm run electron:builder"
   },
   "dependencies": {
+    "axios": "^1.9.0",
     "vue": "^3.5.13"
   },
   "devDependencies": {
