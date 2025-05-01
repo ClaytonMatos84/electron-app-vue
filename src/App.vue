@@ -1,7 +1,4 @@
 <template>
-    <div>
-        <h1>Logs usuários</h1>
-    </div>
     <Dashboard />
 </template>
 

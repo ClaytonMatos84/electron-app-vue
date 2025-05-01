@@ -17,7 +17,9 @@
     "app:build": "npm run build:for:electron && npm run electron:builder"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.8",
     "axios": "^1.9.0",
+    "bootstrap": "^5.3.5",
     "vue": "^3.5.13"
   },
   "devDependencies": {

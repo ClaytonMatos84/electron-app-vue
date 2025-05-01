@@ -12,7 +12,7 @@ export default class UserService {
             const formData = new FormData();
             formData.append('file', file);
 
-            const response = await API.post('/users', formData, {
+            const response = await API.post('/log-users', formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data'
                 }
